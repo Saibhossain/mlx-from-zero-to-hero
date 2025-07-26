@@ -1,0 +1,18 @@
+Index: ActivationFunction.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/ActivationFunction.py b/ActivationFunction.py
+new file mode 100644
+--- /dev/null	(date 1753540200976)
++++ b/ActivationFunction.py	(date 1753540200976)
+@@ -0,0 +1,7 @@
++import mlx.nn as nn
++import mlx.core as mx
++
++a = mx.array([[1.0, 2.0], [3.0, 4.0]])
++
++relu = nn.relu()
++print("reLU Activation:\n",relu(a))
+\ No newline at end of file
